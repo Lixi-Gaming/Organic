@@ -1,0 +1,48 @@
+.lien_he_slider .slider_text  {
+    left: 38%;
+}
+
+.box_cart {
+    width: 50%; /* thiết lập độ rộng của phần tử */
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+
+}
+
+.box_cart_container {
+    width: 50%; /* thiết lập độ rộng của phần tử */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  
+}
+
+.box_cart_img {
+
+}
+
+.box_cart_text {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+a button {
+    display: flex;
+    text-transform: uppercase;
+    padding: 6px 10px;
+}
+
+
+a button p {
+    margin-left: 10px;
+}
+
+
+
+
+

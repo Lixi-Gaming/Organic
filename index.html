@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Organicc</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- _______Header_____ -->
+    <div class="header">
+        <div class="nav-mobile"><i class="fas fa-bars"></i></div>
+        <div class="logo"><img class="logo-img" src="./image/logo-new.png" alt=""></div>
+        <div class="header-nav">
+            <ul>
+                <li class="nav-iteam" >
+                    <a href="./index.html" class="tag-a">
+                        <span class="danhmuc-trangchu trang-chu tablinkk actives">Trang chủ</span>
+                    </a>
+                </li>
+                <li class="nav-iteam">
+                    <a href="./gioi-thieu/gioithieu.html" class="tag-a">
+                        <span class="danhmuc-gioithieu" >Giới thiệu</span>
+                    </a>
+                </li> 
+                 <li class="nav-iteam li-sanpham"><a href="#" class="tag-a"><span class="danhmuc-sanpham">Sản
+                            phẩm</span><i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="iteam-small">
+                        <li class="tag-li"><a href="">Rau củ</a></li>
+                        <li class="tag-li"><a href="">Hoa quả</a></li>
+                        <li class="tag-li"><a href="">Các loại hạt</a></li>
+                        <li class="tag-li"><a href="">Thực phẩm tươi sống</a></li>
+                    </ul>
+                </li>
+                <li class="nav-iteam"><a href="#" class="tag-a"><span class="danhmuc-Blog">Blog</span></a></li>
+                <li class="nav-iteam"><a href="#" class="tag-a"><span class="danhmuc-lienhe">Liện hệ</span></a></li>
+            </ul>
+        </div>
+        <div class="cart-group">
+            <div class="icon-searh"><i class="fa-solid fa-magnifying-glass"></i>
+                <div class="search-mini"><input class="search-input btn-gradient" type="text"
+                        placeholder="Tìm kiếm...."></div>
+            </div>
+            <div class="user-icon"><i class="fa-solid fa-user-plus"></i>
+                <div class="user-mini"><button class="btn btn-dangnhap btn-gradient">Đăng nhập</button><button
+                        class="btn btn-dangki">Đăng kí</button></div>
+            </div>
+            <a href="./gio_hang/giohang.html"class='tag-a'>
+                <div class="cart-icon">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <span class="quanity-icon-cart button_gradient">0</span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+    <!-- _______Body________ -->
+    <div id="body-main">
+        <!-- ____trang chủ______ -->
+
+        <div id="trang-chu" class="page-content">
+            <!-- ____Slider____ -->
+            <div class="slider"><img class="slider-img" src="./image/slider_1.jpg" alt="Slider">
+                <p class="slider-text">Oars Oraganic</p>
+            </div>
+
+
+            <!-- _________Colection________ -->
+            <div id="colection">
+                <div class="row">
+                    <div class="colec-iteam nth-1">
+                        <div class="hover-iteam"></div>
+                        <div class="colec-colum">
+                            <p class="colec-title">Rau củ tươi</p>
+                            <p class="colec-text">Chúng tôi cam kết 100% các sản phẩm có nguồn gốc xuất xứ rõ ràng,
+                                sạch, an
+                                toàn và đảm bảo chất lượng ngon nhất giao đến tận tay người tiêu dùng, để san sẻ sự vất
+                                vả
+                                của các mẹ, các chị</p><button class="btn-colection">Xem ngay</button>
+                        </div>
+                    </div>
+                    <div class="colec-iteam nth-2">
+                        <div class="hover-iteam"></div>
+                        <div class="colec-colum">
+                            <p class="colec-title">Sinh tố hoa quả</p>
+                            <p class="colec-text">Chúng tôi cam kết 100% các sản phẩm có nguồn gốc xuất xứ rõ ràng,
+                                sạch, an
+                                toàn và đảm bảo chất lượng ngon nhất giao đến tận tay người tiêu dùng, để san sẻ sự vất
+                                vả
+                                của các mẹ, các chị</p><button class="btn-colection">Xem ngay</button>
+                        </div>
+                    </div>
+                    <div class="colec-iteam nth-3">
+                        <div class="hover-iteam"></div>
+                        <div class="colec-colum">
+                            <p class="colec-title">Thực phẩm tươi</p>
+                            <p class="colec-text">Chúng tôi cam kết 100% các sản phẩm có nguồn gốc xuất xứ rõ ràng,
+                                sạch, an
+                                toàn và đảm bảo chất lượng ngon nhất giao đến tận tay người tiêu dùng, để san sẻ sự vất
+                                vả
+                                của các mẹ, các chị</p><button class="btn-colection">Xem ngay</button>
+                        </div>
+                    </div>
+                    <div class="colec-iteam nth-4">
+                        <div class="hover-iteam"></div>
+                        <div class="colec-colum">
+                            <p class="colec-title">Hoa quả tươi mát</p>
+                            <p class="colec-text">Hoa quả tươi mát Chúng tôi cam kết 100% các sản phẩm có nguồn gốc xuất
+                                xứ
+                                rõ ràng, sạch, an toàn và đảm bảo chất lượng ngon nhất giao đến tận tay người tiêu dùng,
+                                để
+                                san sẻ sự vất vả của các mẹ, các chị</p><button class="btn-colection">Xem ngay</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- _____ABOUT_____ -->
+            <div id="about">
+                <div class="about_heading">
+                    <div class="about_title">VỀ CHÚNG TÔI</div>
+                    <div class="about_title_icon display_flex"><img src="./image/bg_title.png" alt=""></div>
+                </div>
+                <div class="about_text">Hiện tại vùng nguyên liệu của chúng tôi có thể cung cấp các thực tập tươi sạch
+                    với
+                    số lượng lớn vì đang vào vụ mùa thu hoạch nên chúng tôi có thể cung ứng cho tất cả các đối tác xuất
+                    khẩu
+                    nông sản trên cả nước.</div>
+                <div class="about_list_iteam">
+                    <div class="about_iteam">
+                        <div class="about_iteam_icon display_flex"><img src="./image/icon_uti_1.png" alt=""></div>
+                        <div class="about_text_iteam display_flex"><b>Trang trại hữu cơ</b></div>
+                        <p class="about_content_iteam">Cung cấp 100% thực phẩm sạch đảm bảo an toàn và ngon nhất</p>
+                    </div>
+                    <div class="about_iteam">
+                        <div class="about_iteam_icon display_flex"><img src="./image/icon_uti_2.png" alt=""></div>
+                        <div class="about_text_iteam display_flex"><b>Trang trại hữu cơ</b></div>
+                        <p class="about_content_iteam">Cung cấp 100% thực phẩm sạch đảm bảo an toàn và ngon nhất</p>
+                    </div>
+                    <div class="about_iteam">
+                        <div class="about_iteam_icon display_flex"><img src="./image/icon_uti_3.png" alt=""></div>
+                        <div class="about_text_iteam display_flex"><b>Trang trại hữu cơ</b></div>
+                        <p class="about_content_iteam">Cung cấp 100% thực phẩm sạch đảm bảo an toàn và ngon nhất</p>
+                    </div>
+                    <div class="about_iteam">
+                        <div class="about_iteam_icon display_flex"><img src="./image/icon_uti_4.png" alt=""></div>
+                        <div class="about_text_iteam display_flex"><b>Trang trại hữu cơ</b></div>
+                        <p class="about_content_iteam">Cung cấp 100% thực phẩm sạch đảm bảo an toàn và ngon nhất</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- _______Category_______ -->
+            <div class="category_home">
+                <div class="about_heading">
+                    <div class="about_title">DANH MỤC SẢN PHẨM</div>
+                    <div class="about_title_icon display_flex"><img src="./image/bg_title.png" alt=""></div>
+                </div>
+                <div class="product_container">
+                    <div class="product_header">
+
+                        <!-- ____loại thực phầm_____ -->
+                        <ul class="display_flex">
+                            <li class="row-product active_product tablink" onclick="openProduct(event,'rau-cu')">
+                                <a>
+                                    Rau củ
+                                </a>
+                            </li>
+                            <li class="row-product tablink" onclick="openProduct(event,'hoa-qua')">
+                                <a>
+                                    Hoa quả
+                                </a>
+                            </li>
+                            <li class="row-product tablink" onclick="openProduct(event,'cac-loai-hat')">
+                                <a> Các loại hạt</a>
+                            </li>
+                            <li class="row-product tablink" onclick="openProduct(event,'thuc-pham-tuoi-song')">
+                                <a> Thực phẩm tươi sống</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- ___list product____ -->
+
+                    <!-- rau củ -->
+                    <div id="rau-cu" class="product">
+                        <div class="list_product display_flex">
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/cachua1.png" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Cà chua</h2>
+                                    <div class="product_price">5,000</div>
+                                </div>
+                            </div>
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/chanh1.png" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Chanh tươi</h2>
+                                    <div class="product_price">30,000</div>
+                                </div>
+                            </div>
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/dao-do-my.jpg" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Đào đỏ Mỹ</h2>
+                                    <div class="product_price">31,000</div>
+                                </div>
+                            </div>
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/dau-da-lat.jpg" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Dâu tây Đà Lạt</h2>
+                                    <div class="product_price">350,000</div>
+                                </div>
+                            </div>
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/dua-chuot.jpg" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Dưa chuột Thái Lan</h2>
+                                    <div class="product_price">15,000</div>
+                                </div>
+                            </div>
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/moc-nhi.jpg" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Mộc nhỉ đen các loại</h2>
+                                    <div class="product_price">99,000</div>
+                                </div>
+                            </div>
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/nam-linh-chi.jpg" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Nấm linh chi</h2>
+                                    <div class="product_price">99,000</div>
+                                </div>
+                            </div>
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/Quả óc chó-1.jpg" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Qủa óc chó</h2>
+                                    <div class="product_price">430,000</div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <!-- hoa quả -->
+                    <div id="hoa-qua" class="product" style="display: none;">
+                        <div class="list_product display_flex">
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/buoi-1.jpg" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Bưởi da xanh</h2>
+                                    <div class="product_price">80,000</div>
+                                </div>
+                            </div>
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/cachua1.png" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Cà chua bi</h2>
+                                    <div class="product_price">10,000</div>
+                                </div>
+                            </div>
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/cam.jpg" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Cam Thái nhập khẩu</h2>
+                                    <div class="product_price">80,000</div>
+                                </div>
+                            </div>
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/chuoi.jpg" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Chuối Laba nhập khẩu Thái Lan</h2>
+                                    <div class="product_price">300,000</div>
+                                </div>
+                            </div>
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/chuoi-nam-my.jpg" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Chuối Nam Mỹ</h2>
+                                    <div class="product_price">120,000</div>
+                                </div>
+                            </div>
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/Dưa lưới nhập khẩu Thái Lan-1.jpg" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Dưa lưới nhập khẩu Thái Lan</h2>
+                                    <div class="product_price">90,000</div>
+                                </div>
+                            </div>
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/Lựu đỏ Nam Phi nhập khẩu-1.jpg" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Lựu đỏ Nam Phi nhập khẩu</h2>
+                                    <div class="product_price">40,000</div>
+                                </div>
+                            </div>
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/Măng cụt chín Miền Nam1.png" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Măng cụt chín Miền Nam</h2>
+                                    <div class="product_price">80,000</div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <!-- các loại hạt -->
+                    <div id="cac-loai-hat" class="product" style="display: none;">
+                        <div class="list_product display_flex">
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/dau-da-lat.jpg" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Đậu xanh</h2>
+                                    <div class="product_price">12,000</div>
+                                </div>
+                            </div>
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/Hành tây đặc biệt-1.jpg" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Hành Tây đặc biệt</h2>
+                                    <div class="product_price">55,000</div>
+                                </div>
+                            </div>
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/Hạt điều khô-1.jpg" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Hạt điều khô</h2>
+                                    <div class="product_price">280,000</div>
+                                </div>
+                            </div>
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/Hạt điều trắng-1.jpg" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Hạt điều trắngt</h2>
+                                    <div class="product_price">380,000</div>
+                                </div>
+                            </div>
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/Hạt hạnh nhân-1.jpg" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Hạt hạnh nhân</h2>
+                                    <div class="product_price">320,000</div>
+                                </div>
+                            </div>
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/Ngũ cốc-1.jpg" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Ngũ Cốc</h2>
+                                    <div class="product_price">120,000</div>
+                                </div>
+                            </div>
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/Quả óc chó-1.jpg" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Qủa óc chó</h2>
+                                    <div class="product_price">430,000</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- thực phẩm tươi sống -->
+                    <div id="thuc-pham-tuoi-song" class="product" style="display: none;">
+                        <div class="list_product display_flex">
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/Ba chỉ bò Mỹ-1.jpg" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Ba chỉ bò Mỹ</h2>
+                                    <div class="product_price">500,000</div>
+                                </div>
+                            </div>
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/Sườn lợn Brazil-1.jpg" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Sườn lơn Brazil</h2>
+                                    <div class="product_price">200,000</div>
+                                </div>
+                            </div>
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/Thịt bò Kobe-1.jpg" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Thịt bò Kobe</h2>
+                                    <div class="product_price">600,000</div>
+                                </div>
+                            </div>
+                            <div class="product_iteam">
+                                <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                            src="./image/Thịt lợn nạc vai-1.jpg" alt="quả óc chó"></a></div>
+                                <div class="product_detail">
+                                    <h2>Thịt lợn nạc vai</h2>
+                                    <div class="product_price">65,000</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- _____Hotline______ -->
+            <div class="hotline_home_theme">
+                <div class="hotline_content_box">
+                    <h2>Hotline</h2>
+                    <h2 class="hotline">0981998668</h2>
+                    <div class="otline_content_text">Chúng tôi cam kết 100% các sản phẩm có nguồn gốc xuất xứ rõ ràng,
+                        sạch,
+                        an toàn và đảm bảo chất lượng ngon nhất.</div>
+                </div>
+            </div>
+
+            <!-- ______Best_Saler____ -->
+            <div class="best_seller">
+                <div class="about_heading">
+                    <div class="about_title">DANH MỤC SẢN PHẨM</div>
+                    <div class="about_title_icon display_flex"><img src="./image/bg_title.png" alt=""></div>
+                </div>
+                <div class="product_bestseller display_flex">
+                    <div class="product_iteam">
+                        <div class="product_thumnail"><a href="./product/detail.html"><img class="product_img"
+                                    src="./image/Quả óc chó-1.jpg" alt="quả óc chó"></a></div>
+                        <div class="product_detail">
+                            <h2>Qủa óc chó</h2>
+                            <div class="product_price">430,000</div>
+                        </div>
+                    </div>
+                    <div class="product_iteam">
+                        <div class="product_thumnail"><a href="#"><img class="product_img"
+                                    src="./image/Sườn lợn Brazil-1.jpg" alt="quả óc chó"></a></div>
+                        <div class="product_detail">
+                            <h2>Sườn lợn Barazil</h2>
+                            <div class="product_price">200,000</div>
+                        </div>
+                    </div>
+                    <div class="product_iteam">
+                        <div class="product_thumnail"><a href="#"><img class="product_img"
+                                    src="./image/Ba chỉ bò Mỹ-1.jpg" alt="quả óc chó"></a></div>
+                        <div class="product_detail">
+                            <h2>Ba chỉ bò Mỹ</h2>
+                            <div class="product_price">550,000</div>
+                        </div>
+                    </div>
+                    <div class="product_iteam">
+                        <div class="product_thumnail"><a href="#"><img class="product_img"
+                                    src="./image/Thịt bò Kobe-1.jpg" alt="quả óc chó"></a></div>
+                        <div class="product_detail">
+                            <h2>Thịt bò Kobe</h2>
+                            <div class="product_price">600,000</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ___Top brand____ -->
+            <div class="top_brand">
+                <div class="about_heading">
+                    <div class="about_title">TOP THƯƠNG HIỆU</div>
+                    <div class="about_title_icon display_flex"><img src="./image/bg_title.png" alt=""></div>
+                </div>
+                <div class="list_brand display_flex"><img class="brand_img" src="./image/brand_1.png" alt=""> <img
+                        class="brand_img" src="./image/brand_2.png" alt=""> <img class="brand_img"
+                        src="./image/brand_3.png" alt=""> <img class="brand_img" src="./image/brand_4.png" alt=""> <img
+                        class="brand_img" src="./image/brand_5.png" alt=""> <img class="brand_img"
+                        src="./image/brand_6.png" alt=""></div>
+            </div>
+
+
+            <!-- ____Register____ -->
+            <div class="register">
+                <div class="register_container display_flex">
+                    <h2>Đăng ký nhận tin khuyến mãi</h2>
+                    <div class="register_main"><input class="input_register" type="text"
+                            placeholder="Tìm kiếm...."><button class="btn_register">Đăng Ký</button></div>
+                </div>
+            </div>
+        </div>
+
+         <!-- _____Footer_______ -->
+        <div id="footer">
+            <div class="footer_container display_flex">
+                <div class="footer_iteam col1">
+                    <div class="footer_logo"><img src="./image/logo-new.png" class="logo_footer" alt="logo" style="width: 100%;"></div>
+                    <div class="footer_col1_row">
+                        <div class="footer_col1_icon display_flex"><i class="fa-solid fa-location-dot"></i></div>
+                        <span>Minh Khai, Quận Bắc Từ Liêm, Hà Nội</span>
+                    </div>
+                    <div class="footer_col1_row">
+                        <div class="footer_col1_icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                        <span>0981998033</span>
+                    </div>
+                    <div class="footer_col1_row">
+                        <div class="footer_col1_icon display_flex"><i class="fa-solid fa-envelope"></i></div>
+                        <span>tientrongoto3@gmail.com</span>
+                    </div>
+                </div>
+                <div class="footer_iteam">
+                    <div class="footer_col2">
+                        <h2>CHÍNH SÁCH</h2>
+                        <ul>
+                            <li class="tag-li"><a href="#" class="tag-a">Chính sách đổi trả</a></li>
+                            <li class="tag-li"><a href="#" class="tag-a">Chính sách bảo mật</a></li>
+                            <li class="tag-li"><a href="#" class="tag-a">Chính sách vận chuyển</a></li>
+                            <li class="tag-li"><a href="#" class="tag-a">Phương thức thanh toán</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_iteam">
+                    <div class="face"><img class="face-img" src="./image/ảnh fb.jpg" alt="ảnh đại diện"></div>
+                </div>
+                <div class="footer_iteam">
+                    <div class="footer_col2">
+                        <h2>VỀ CHÚNG TÔI</h2>
+                        <ul>
+                            <li class="tag-li"><a href="#" class="tag-a">Giỏ hàng</a></li>
+                            <li class="tag-li"><a href="#" class="tag-a">Giới thiệu</a></li>
+                            <li class="tag-li"><a href="#" class="tag-a">Hướng dẫn mua hàng</a></li>
+                            <li class="tag-li"><a href="#" class="tag-a">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
